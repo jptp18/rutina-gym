@@ -1,0 +1,119 @@
+:root{
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secunadrio: #FFCE00;
+    --secundarioOscuro: rgb(233, 187, 2);
+    --blanco: #FFF;
+    --negro: #000;
+}
+
+/*Globales*/
+body{
+    background-color: var(--primario);
+}
+img{
+    width: 100%;
+    border-radius: 10%;
+}
+.imagen-rutina{
+    width: 300px;
+    height: 300px;
+}
+.titulo{
+    margin-top: 5rem;
+}
+h1{
+    color: var(--secundarioOscuro);
+}
+
+/*Navbar*/
+nav.navbar{
+    background-color: var(--primarioOscuro);
+    color: var(--blanco);
+}
+nav.navbar a:hover {
+    color: var(--secunadrio);
+}
+nav.navbar a {
+    color: var(--blanco);
+}
+.navbar-toggler{
+    background-color: var(--primario);
+    border-color: var(--negro);
+}
+
+
+
+/*Inicio*/
+#contenido-prinicpal{
+    margin-top: 5rem;
+}
+div.card{
+    background-color: var(--primarioOscuro);
+}
+.card-title{
+    color: var(--secunadrio);
+}
+h6.card-subtitle{
+    color: var(--secundarioOscuro);
+}
+.card-text{
+    color: var(--blanco);
+}
+.btn.btn-primary{
+    background-color: var(--secundarioOscuro);
+    border-color: var(--secundarioOscuro);
+    color: var(--negro);
+}
+hr{
+    color: var(--blanco);
+}
+
+/*Días*/
+#rutina{
+    margin-top: 2rem;
+}
+.accordion{
+    border-color: var(--primarioOscuro);
+}
+.accordion-button.collapsed{
+    background-color: var(--primarioOscuro);
+    color: var(--blanco);
+}
+.accordion-button{
+    background-color: var(--primarioOscuro);
+    color: var(--blanco);
+}
+.accordion-item{
+    background-color: var(--primario);
+    border-color: var(--primario);
+}
+.accordion-item p strong{
+    color: var(--secundarioOscuro);
+}
+.accordion-item p{
+    color: var(--blanco);
+}
+button.accordion-button.collapsed::after{
+    background-color: var(--secundarioOscuro);
+    border-radius: 80%;
+}
+
+/*Footer*/
+footer{
+    background-color: var(--primarioOscuro);
+}
+.wpp-icon{
+    margin-right: 0;
+    color: var(--blanco);
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-top: 1rem;
+}
+.logo figure img{
+    width: 100%;
+
+}
