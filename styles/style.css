@@ -68,6 +68,13 @@ h6.card-subtitle{
 hr{
     color: var(--blanco);
 }
+#recomend-container{
+    gap: 1rem;
+}
+
+#rutin-container{
+    gap: 1rem;
+}
 
 /*Días*/
 #rutina{
@@ -97,6 +104,10 @@ hr{
 button.accordion-button.collapsed::after{
     background-color: var(--secundarioOscuro);
     border-radius: 80%;
+}
+
+h1.titulo{
+    margin-left: 2rem;
 }
 
 /*Footer*/
